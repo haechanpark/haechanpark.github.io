@@ -647,6 +647,21 @@ footer{
       height:225px;
       width:225px;
     }
+    .home-main3{
+      z-index: 0;
+      margin-top: 5vh;
+      margin-left:20vw; margin-right:20vw;
+      margin-bottom: 1vh;
+    }
+    .title-offset{
+      color: black;
+      font-weight:bold;
+      font-size:30px;
+      font-family: 'Montserrat', sans-serif;
+      display: inline;
+      background-image: linear-gradient(#fff 70%, #b2bedc 55%);
+      text-align: center;
+    }
     .map{
       height:175px;
       width:175px;
