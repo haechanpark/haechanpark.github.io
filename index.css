@@ -180,6 +180,11 @@ html{
 }
 
 
+.fold1{
+  height:225px;
+  width:225px;
+
+}
 
 .fold{
   height:350px;
@@ -245,6 +250,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   display: inline;
   background-image: linear-gradient(#fff 70%, #b2bedc 55%);
+  text-align: center;
 }
 
 .home-title h2{
@@ -339,7 +345,7 @@ span{
   font-size: 20px;
   font-weight:bold;
   font-family: 'Montserrat', sans-serif;
-  vertical-align: middle;
+  
 }
 
 
@@ -352,7 +358,47 @@ span{
   
 
 }
+.home-main3 h4{
+  color: black;
+  padding-top: 0;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.home-main3 h5{
+  color: black;
+  padding-top: 0;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+}
 
+.home-main3{
+  z-index: 0;
+  margin-top: 5vh;
+  margin-left:25vw; margin-right:18vw;
+  margin-bottom: 8vh;
+}
+
+.home-main3 p{
+  color: black;
+  font-size: 18px;
+  font-weight:bold;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.home-main3 h3{
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10vh;
+  font-family: 'Montserrat', sans-serif;
+  display: inline;
+  
+
+}
 .sidenav {
 
   height: 100%;
@@ -588,16 +634,21 @@ footer{
 .footer-font{
   font-family: 'Montserrat', sans-serif;
 }
+
 @media (max-width: 767px) {
     .sidenav{
         display:none;
     }
     .fold{
-      height:250px;
-      width:250px;
+      height:350px;
+      width:350px;
+    }
+    .fold1{
+      height:225px;
+      width:225px;
     }
     .map{
-      height:250px;
+      height:175px;
       width:175px;
     }
     .twoserve{
